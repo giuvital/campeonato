@@ -1,0 +1,116 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: #FFFFFF;
+	font-family: Arial;
+}
+
+#menu ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	background-color: #EFD320;
+	font-size: 18px;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a {
+	font-size: 18px;
+	padding: 2px 10px;
+	display: inline-block;
+	background-color: #EFD320;
+	color: black;
+	text-decoration: none;
+	border-bottom: 3px solid #EFD320;
+}
+
+#menu ul li a:hover {
+	font-size: 18px;
+	background-color: #204CEF;
+	color: white;
+	border-bottom: 3px solid red;
+}
+
+input[type=submit]{
+	border: 4px solid yellow;
+	color: white;
+	background-color: green;
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+input[type=submit]:hover {
+	background-color: red;
+	color: pink;
+	font-size: 20px;
+}
+
+.container {
+	margin: auto;
+	width: 50%;
+	border: 7px solid gray;
+	border-radius: 50px;
+	padding-bottom: 20px;
+	box-shadow: 20px 20px 2px;
+}
+
+.title {
+	font-size:28px;
+	color: black;
+}
+
+.input_data_id {
+	border: 3px solid black;
+	height: 30px;
+	width: 68px;
+	font-size: 20px;
+}
+
+.input_data_placa {
+	border: 3px solid black;
+	height: 30px;
+	width: 85px;
+	font-size: 20px;
+}
+
+.input_data_date {
+	border: 3px solid black;
+	height: 30px;
+	width: 180px;
+	font-size: 20px;
+}
+
+.input_data {
+	border: 3px solid black;
+	height: 30px;
+	width: 340px;
+	font-size: 20px;
+}
+
+.table_round{
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 500px;
+	height: 200px;
+}
+
+.th_dash {
+	border: 0.5 px solid blue;
+	border-style: dashed; 
+}
+
+.td_groove {
+	border: 0.5 px solid purple;
+	border-style: groove;
+}
+
+h2 {
+	color: red;
+}
+
+h3 {
+	color: blue;
+}
