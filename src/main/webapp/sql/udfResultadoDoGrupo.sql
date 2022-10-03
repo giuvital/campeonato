@@ -1,12 +1,12 @@
 USE campeonato;
 
-Fazer  uma  tela  de  consulta  com  os  4  grupos  e  4 Tabelas,  
-que  mostrem  a  saída  (para  cadaTabela) de uma UDF (User Defined FUNCTION), 
-que receba o nome do grupo, valide-o e dê aseguinte saída: 
-GRUPO  (nome_time,  num_jogos_disputados*,  vitorias,  empates,  derrotas,  gols_marcados, gols_sofridos, saldo_gols**,pontos***) 
-O campeão de cada grupo se dará por aquele que tiver maior número de pontos. Em caso de empate, a ordem de desempate é por número de vitórias, 
-depois por gols marcados e por fim, por saldo de gols.
-(Vitória = 3 pontos, Empate = 1 ponto , Derrota = 0 pontos)
+--Fazer  uma  tela  de  consulta  com  os  4  grupos  e  4 Tabelas,  
+--que  mostrem  a  saída  (para  cadaTabela) de uma UDF (User Defined FUNCTION), 
+--que receba o nome do grupo, valide-o e dê aseguinte saída: 
+--GRUPO  (nome_time,  num_jogos_disputados*,  vitorias,  empates,  derrotas,  gols_marcados, gols_sofridos, saldo_gols**,pontos***) 
+--O campeão de cada grupo se dará por aquele que tiver maior número de pontos. Em caso de empate, a ordem de desempate é por número de vitórias, 
+--depois por gols marcados e por fim, por saldo de gols.
+--(Vitória = 3 pontos, Empate = 1 ponto , Derrota = 0 pontos)
 
 CREATE FUNCTION resultado_grupo(
 	@grupo VARCHAR(1)
