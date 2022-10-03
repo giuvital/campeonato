@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+table {
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.main {
+	width: 600px;
+	margin: 0 auto;
+	padding: 10px;
+}
